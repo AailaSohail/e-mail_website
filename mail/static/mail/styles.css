@@ -1,0 +1,33 @@
+textarea {
+    min-height: 400px;
+}
+.email-read{
+    background-color: #d7d7d7;
+    border-color: #777777;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-top: 5px;
+    padding: 12px; 
+    padding-bottom : 0px;
+}
+.email-unread{
+    background-color: white;
+    border-color: #777777;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-top: 5px;
+    padding: 12px;
+    padding-bottom : 0px;
+}
+.row-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+  .list-group{
+    list-style: none;
+  }
